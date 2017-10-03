@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>katalon-angular</name>
+   <tag></tag>
+   <UUID>966858fc-c03c-4efe-af9c-aa31cbcd5510</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
