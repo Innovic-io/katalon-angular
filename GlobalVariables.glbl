@@ -7,4 +7,34 @@
       <initValue>'https://toddmotto.com/angular-pizza-creator/'</initValue>
       <name>URL</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>fictitious name</description>
+      <initValue>'Jack Black'</initValue>
+      <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>fictitious email</description>
+      <initValue>'schoolofrock@mailinator.com'</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>fictitious address</description>
+      <initValue>'Mulholland Drive 23b'</initValue>
+      <name>Address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>fictitious postcode</description>
+      <initValue>'91122'</initValue>
+      <name>Postcode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>fictitious phone number</description>
+      <initValue>'666999'</initValue>
+      <name>Phonenumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Notification</description>
+      <initValue>'FIELD IS REQUIRED'</initValue>
+      <name>WarningNotification</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
