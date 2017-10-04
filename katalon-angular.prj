@@ -3,6 +3,10 @@
    <description></description>
    <name>katalon-angular</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
    <UUID>966858fc-c03c-4efe-af9c-aa31cbcd5510</UUID>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>0</pageLoadTimeout>
 </Project>
