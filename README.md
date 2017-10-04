@@ -5,6 +5,6 @@
 - [ ] Verifying elements present on details section
 - [ ] Verifying input elements clickable on details        section
 - [ ] Verifying "FIELD IS REQUIRED" notification (every input field needs to be completed)
-- - [ ]
+
 
 
