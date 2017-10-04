@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Open URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Details section/Enter your details text'), 1)
 
