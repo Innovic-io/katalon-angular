@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order a default pizza (small)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e23f0c71-bfc3-4259-9c27-a92ccb09e732</testCaseGuid>
+</TestCaseEntity>

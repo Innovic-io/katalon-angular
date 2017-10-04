@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Order a different type of pizza</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1bdcd875-f01c-45ed-b700-d3389cad5455</testCaseGuid>
+</TestCaseEntity>
