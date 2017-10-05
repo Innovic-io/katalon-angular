@@ -4,7 +4,7 @@
    <name>Pizza creator</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-05T11:08:19</lastRun>
+   <lastRun>2017-10-05T16:49:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -45,7 +45,7 @@
       <guid>56ff5e4a-3b8f-4214-8a6c-ff5c4b229cb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Fill in all the details</testCaseId>
+      <testCaseId>Test Cases/Fill in order info</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d85584d0-317b-4f3b-8d56-080dc5dd9772</guid>
@@ -94,6 +94,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Delete pizza from the list</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ee7d5277-21e3-4bdb-9074-ccec647face4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pizza toppings visual</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a1288cb8-6f12-40e5-b223-3d6ef55af79a</guid>

@@ -14,9 +14,9 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>pizza-creator__content ng-untouched ng-pristine ng-valid pizza-creator__content--open</value>
+      <value> pizza-creator__content--open</value>
    </webElementProperties>
 </WebElementEntity>

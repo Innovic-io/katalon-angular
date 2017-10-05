@@ -27,7 +27,7 @@ WebUI.verifyElementClickable(findTestObject('Select pizza section/Large pizza'),
 
 WebUI.verifyElementClickable(findTestObject('Select pizza section/Medium pizza'))
 
-WebUI.verifyElementClickable(findTestObject('Select pizza section/Small pizza'))
+WebUI.verifyElementClickable(findTestObject('Select pizza section/Small pizza active'))
 
 WebUI.verifyElementPresent(findTestObject('Toppings section/Pick your toppings text'), 1)
 

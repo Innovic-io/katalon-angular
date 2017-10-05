@@ -21,39 +21,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(1)
 
-pizzaType1 = WebUI.getText(findTestObject('Place order/Pizza type'))
+WebUI.verifyElementPresent(findTestObject('Pizza image/Pizza toppings image'), 1)
 
-price1 = WebUI.getText(findTestObject('Place order/Pizza price'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Select pizza section/Medium pizza'))
+WebUI.click(findTestObject('Toppings section/Mozzarella link'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Select pizza section/Medium pizza active'), 1)
+WebUI.verifyElementPresent(findTestObject('Pizza image/Topping image (mozzarella)'), 1)
 
 WebUI.delay(1)
 
-pizzaType2 = WebUI.getText(findTestObject('Place order/Pizza type'))
-
-price2 = WebUI.getText(findTestObject('Place order/Pizza price'))
-
-WebUI.verifyNotMatch(pizzaType1, pizzaType2, true)
-
-WebUI.verifyNotMatch(price1, price2, true)
-
-WebUI.click(findTestObject('Select pizza section/Large pizza'))
+WebUI.verifyElementPresent(findTestObject('Toppings section/Topping active'), 1)
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Select pizza section/Large pizza active'), 1)
+WebUI.click(findTestObject('Toppings section/Mozzarella link'))
 
 WebUI.delay(1)
 
-pizzaType3 = WebUI.getText(findTestObject('Place order/Pizza type'))
-
-WebUI.verifyNotMatch(pizzaType2, pizzaType3, true)
-
-WebUI.verifyElementClickable(findTestObject('Place order/Place order button'))
+WebUI.verifyElementNotPresent(findTestObject('Pizza image/Topping image (mozzarella)'), 1)
 
