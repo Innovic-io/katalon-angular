@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Details section'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
 WebUI.verifyElementPresent(findTestObject('Choose pizza section/Choose your pizzas text'), 1)

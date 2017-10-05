@@ -19,13 +19,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Pizza toppings'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Place order/Order summary text'), 1)
+price1 = WebUI.getText(findTestObject('Place order/Total price'))
 
-WebUI.verifyElementPresent(findTestObject('Place order/Pizza type'), 1)
+WebUI.click(findTestObject('Toppings section/Pepperoni link'))
 
-WebUI.verifyElementPresent(findTestObject('Place order/Pizza price'), 1)
+WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Place order/Total price'), 1)
+WebUI.verifyElementPresent(findTestObject('Place order/Another topping (pepperoni)'), 1)
+
+price2 = WebUI.getText(findTestObject('Place order/Total price'))
+
+WebUI.delay(1)
+
+WebUI.verifyNotMatch(price1, price2, true)
+
+WebUI.click(findTestObject('Toppings section/Pepperoni link'))
+
+WebUI.delay(1)
+
+WebUI.verifyElementNotPresent(findTestObject('Place order/Another topping (pepperoni)'), 1)
+
+price3 = WebUI.getText(findTestObject('Place order/Total price'))
+
+WebUI.delay(1)
+
+WebUI.verifyEqual(price1, price3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.verifyNotMatch(price2, price3, true)
+
+WebUI.click(findTestObject('Place order/Place order button'))
 

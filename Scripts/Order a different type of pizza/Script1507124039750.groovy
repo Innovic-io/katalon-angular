@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Fill in all the details'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
 pizzaType1 = WebUI.getText(findTestObject('Place order/Pizza type'))
@@ -48,4 +46,6 @@ WebUI.delay(1)
 pizzaType3 = WebUI.getText(findTestObject('Place order/Pizza type'))
 
 WebUI.verifyNotMatch(pizzaType2, pizzaType3, true)
+
+WebUI.verifyElementClickable(findTestObject('Place order/Place order button'))
 

@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Choose your pizzas'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
 
 price1 = WebUI.getText(findTestObject('Place order/Total price'))
 
@@ -36,8 +36,4 @@ WebUI.verifyElementClickable(findTestObject('Add pizza/Delete pizza button'))
 price2 = WebUI.getText(findTestObject('Place order/Total price'))
 
 WebUI.verifyNotMatch(price1, price2, true)
-
-WebUI.click(findTestObject('Choose pizza section/Add pizza button'))
-
-WebUI.verifyElementPresent(findTestObject('Add pizza/Pizza 3 link'), 1)
 

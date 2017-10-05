@@ -37,4 +37,9 @@
       <initValue>'FIELD IS REQUIRED'</initValue>
       <name>WarningNotification</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Anchovy  $0.69'</initValue>
+      <name>ToppingName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

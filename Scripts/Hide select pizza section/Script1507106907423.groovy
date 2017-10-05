@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Pizza 1'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Pizza 1/Pizza 1 link'))
@@ -28,4 +26,8 @@ WebUI.click(findTestObject('Pizza 1/Pizza 1 link'))
 WebUI.delay(2)
 
 WebUI.verifyElementNotVisible(findTestObject('Pizza 1/Open select pizza section'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Pizza 1/Pizza 1 link'))
+
+WebUI.verifyElementPresent(findTestObject('Pizza 1/Open select pizza section'), 1)
 

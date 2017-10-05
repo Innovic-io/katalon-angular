@@ -19,13 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Fill in all the details'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
 price1 = WebUI.getText(findTestObject('Place order/Total price'))
-
-WebUI.verifyElementNotClickable(findTestObject('Place order/Place order button'))
 
 WebUI.click(findTestObject('Toppings section/Anchovy link'))
 
@@ -38,6 +34,4 @@ WebUI.delay(1)
 WebUI.verifyNotMatch(price1, price2, true)
 
 WebUI.verifyElementClickable(findTestObject('Place order/Place order button'))
-
-WebUI.click(findTestObject('Place order/Place order button'))
 

@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Input details section'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.setText(findTestObject('Input details/Input name section'), GlobalVariable.Name)
 
 WebUI.setText(findTestObject('Input details/Input email section'), GlobalVariable.Email)
