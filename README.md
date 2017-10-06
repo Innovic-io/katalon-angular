@@ -30,7 +30,6 @@
 The tool is available to all testers at __no cost__ and can be downloaded at **https://www.katalon.com**.
 
 
-<img width="50" src="https://angular.io/assets/images/logos/angular/angular.svg" />
-<img height= "80" src="https://www.katalon.com/wp-content/themes/katalon/images/katalon-studio-logo-notag.svg" />
+<img height= "50" src="https://www.katalon.com/wp-content/themes/katalon/images/katalon-studio-logo-notag.svg" />
 
 	
