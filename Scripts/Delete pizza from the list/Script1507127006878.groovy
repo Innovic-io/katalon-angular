@@ -19,13 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 price1 = WebUI.getText(findTestObject('Place order/Total price'))
 
 WebUI.click(findTestObject('Add pizza/Delete pizza button'))
-
-WebUI.delay(1)
 
 WebUI.verifyElementNotPresent(findTestObject('Add pizza/Pizza 3 link'), 1)
 

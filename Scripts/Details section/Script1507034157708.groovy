@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Details section/Enter your details text'), 1)
 
 WebUI.verifyElementPresent(findTestObject('Details section/Name required text'), 1)

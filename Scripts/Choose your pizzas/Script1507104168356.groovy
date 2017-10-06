@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Choose pizza section/Choose your pizzas text'), 1)
 
 WebUI.verifyElementClickable(findTestObject('Choose pizza section/Add pizza button'))

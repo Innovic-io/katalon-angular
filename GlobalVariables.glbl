@@ -24,7 +24,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>fictitious postcode</description>
-      <initValue>'91122'</initValue>
+      <initValue>'90210'</initValue>
       <name>Postcode</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,5 +41,15 @@
       <description></description>
       <initValue>'Anchovy  $0.69'</initValue>
       <name>ToppingName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1200'</initValue>
+      <name>Height</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1300'</initValue>
+      <name>Width</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

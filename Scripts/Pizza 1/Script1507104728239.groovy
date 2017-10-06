@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.verifyElementClickable(findTestObject('Pizza 1/Pizza 1 link'))
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Pizza 1/Open select pizza section'), 1)
 

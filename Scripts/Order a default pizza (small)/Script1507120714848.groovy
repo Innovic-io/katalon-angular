@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 price1 = WebUI.getText(findTestObject('Place order/Total price'))
 
 WebUI.click(findTestObject('Toppings section/Anchovy link'))
@@ -28,8 +26,6 @@ WebUI.click(findTestObject('Toppings section/Anchovy link'))
 WebUI.verifyElementPresent(findTestObject('Place order/One topping type (Anchovy)'), 1)
 
 price2 = WebUI.getText(findTestObject('Place order/Total price'))
-
-WebUI.delay(1)
 
 WebUI.verifyNotMatch(price1, price2, true)
 

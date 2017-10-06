@@ -19,15 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Input details/Input name section'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Input details/Input email section'))
-
-WebUI.delay(1)
 
 WebUI.verifyTextPresent(GlobalVariable.WarningNotification, true)
 

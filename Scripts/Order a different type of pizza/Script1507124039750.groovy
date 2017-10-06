@@ -19,21 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 pizzaType1 = WebUI.getText(findTestObject('Place order/Pizza type'))
 
 price1 = WebUI.getText(findTestObject('Place order/Pizza price'))
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Select pizza section/Medium pizza'))
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Select pizza section/Medium pizza active'), 1)
-
-WebUI.delay(1)
 
 pizzaType2 = WebUI.getText(findTestObject('Place order/Pizza type'))
 
@@ -45,11 +37,7 @@ WebUI.verifyNotMatch(price1, price2, true)
 
 WebUI.click(findTestObject('Select pizza section/Large pizza'))
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Select pizza section/Large pizza active'), 1)
-
-WebUI.delay(1)
 
 pizzaType3 = WebUI.getText(findTestObject('Place order/Pizza type'))
 

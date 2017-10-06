@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.URL)
 
-WebUI.delay(1)
-
-WebUI.setViewPortSize(1300, 1200)
+WebUI.setViewPortSize(1200, 1200)
 

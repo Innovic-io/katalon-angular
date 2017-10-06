@@ -19,17 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Pizza image/Pizza toppings image'), 1)
 
 WebUI.click(findTestObject('Toppings section/Mozzarella link'))
 
-WebUI.delay(1)
-
 WebUI.verifyElementPresent(findTestObject('Pizza image/Topping image (mozzarella)'), 1)
-
-WebUI.delay(1)
 
 WebUI.verifyElementPresent(findTestObject('Toppings section/Topping active'), 1)
 
@@ -37,7 +31,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Toppings section/Mozzarella link'))
 
-WebUI.delay(1)
-
-WebUI.verifyElementNotPresent(findTestObject('Pizza image/Topping image (mozzarella)'), 1)
+WebUI.verifyElementNotPresent(findTestObject('Pizza image/Topping image (mozzarella)'), 3)
 
