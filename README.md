@@ -32,4 +32,10 @@ The tool is available to all testers at __no cost__ and can be downloaded at **h
 
 <img height= "50" src="https://www.katalon.com/wp-content/themes/katalon/images/katalon-studio-logo-notag.svg" />
 
-	
+
+###What is end-to-end testing?###
+End-to-end testing is a methodology used to test whether the flow of an application is performing as designed from start to finish. The purpose of carrying out end-to-end tests is to identify system dependencies and to ensure that the right information is passed between various system components and systems.
+
+###What is Angular?###
+Angular is a platform that makes it easy to build applications with the web. Angular combines declarative templates, dependency injection, end to end tooling, and integrated best practices to solve development challenges. Angular empowers developers to build applications that live on the web, mobile, or the desktop
+
