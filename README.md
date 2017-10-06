@@ -28,4 +28,7 @@
 ### About Katalon
 **Katalon Studio** is a comprehensive toolset for web and mobile app automation testing. This tool includes a full package of powerful features that help overcome common challenges in web UI test automation, for example, pop-up, iFrame, and wait-time. This user-friendly and versatile solution help testers test better, work faster, and launch high quality software thank to the intelligence it provides to the entire test automation process.
 The tool is available to all testers at __no cost__ and can be downloaded at **https://www.katalon.com**.
+
 ![Logo](https://www.katalon.com/wp-content/themes/katalon/images/katalon-studio-logo-notag.svg)
+
+[![Katalon testing](http://img.youtube.com/vi/9GVN9mV1zS4/0.jpg)](http://www.youtube.com/watch?v=9GVN9mV1zS4)
