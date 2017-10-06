@@ -25,6 +25,7 @@
 - [X] Verifying another supplement added to the list
 - [X] Verifying "order" button clickable after successfully completing the order
 
-
-
-
+### About Katalon
+**Katalon Studio** is a comprehensive toolset for web and mobile app automation testing. This tool includes a full package of powerful features that help overcome common challenges in web UI test automation, for example, pop-up, iFrame, and wait-time. This user-friendly and versatile solution help testers test better, work faster, and launch high quality software thank to the intelligence it provides to the entire test automation process.
+The tool is available to all testers at __no cost__ and can be downloaded at **https://www.katalon.com**.
+![Logo](https://www.katalon.com/wp-content/themes/katalon/images/katalon-studio-logo-notag.svg)
