@@ -16,7 +16,7 @@ The tool is available to all testers at __no cost__ and can be downloaded at **h
 
 
 ### Angular Katalon ###
- Testing random demo app in Angular with Katalon Studio
+**Testing random demo app in Angular with Katalon Studio** 
 
 - [X] Open URL and maximize window
 - [X] Verifying elements present in the details section
