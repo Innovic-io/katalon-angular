@@ -14,8 +14,6 @@ The tool is available to all testers at __no cost__ and can be downloaded at **h
 <img height= "50" src="https://www.katalon.com/wp-content/themes/katalon/images/katalon-studio-logo-notag.svg" />
 
 
-
-### Angular Katalon ###
 **Testing random demo app in Angular with Katalon Studio** 
 
 - [X] Open URL and maximize window
