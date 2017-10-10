@@ -42,4 +42,4 @@ The tool is available to all testers at __no cost__ and can be downloaded at **h
 
 
 
-[![Katalon Angular testing](https://img.youtube.com/vi/9GVN9mV1zS4/0.jpg)](https://www.youtube.com/watch?v=9GVN9mV1zS4 "Katalon Angular testing")
+[![Katalon Angular testing](https://img.youtube.com/vi/iDSvv5CTPRE/0.jpg)](https://www.youtube.com/watch?v=iDSvv5CTPRE "Katalon Angular testing")
